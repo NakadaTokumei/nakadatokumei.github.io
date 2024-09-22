@@ -14,7 +14,7 @@ tags: [Getting Start]
 - **가상화**란 말 그대로, 하나의 하드웨어에서 가상머신(Virtual Machines, VM)을 통해 분할하여, 추상화하는 것을 의미.
     - 간단하게 요약해보면, 하나의 하드웨어에서 여러 대의 다양한 운영체제로 필요에 따른 역할을 분별할 수 있음. (아래 이미지 참조)
 
-![Virtualzation](../images/Virtualization.png)
+![Virtualzation](/assets/images/Virtualization.png)
 
 # Hypervisor?
 - Hypervisor라는 것은 가상 머신을 관리하고 사용할 수 있는 소프트웨어. 어느 부분에서 실행하느냐에 따라, Type 1 & 2로 나누어짐.
@@ -26,7 +26,7 @@ tags: [Getting Start]
 - Type 1 하이퍼바이저 같은 경우에는 사실상 운영체제에 가까운 형태이기에, Microkernel 형태로 작성되는 경우가 대부분.
     - 대표적인 Type 1 하이퍼바이저 : **Xen**, **Hyper-V**, **Proxmox** 등
 
-![Xen Project](../images/Da2BXtzpzPF59WMwPBsK24KUJ_E692fcRFl65iJpQbsC9fMYQYpHhASxy-byBUbaa6gyf6hg--Q8aqCQGJDyzLwV1tvK0K6NOuc-2QA_fJ0QlrhIY8kXTrhd-PXGLn9U1TMxRcBjdL3cqUTA6dTmVQ.svg)
+![Xen Project](/assets/images/Da2BXtzpzPF59WMwPBsK24KUJ_E692fcRFl65iJpQbsC9fMYQYpHhASxy-byBUbaa6gyf6hg--Q8aqCQGJDyzLwV1tvK0K6NOuc-2QA_fJ0QlrhIY8kXTrhd-PXGLn9U1TMxRcBjdL3cqUTA6dTmVQ.svg)
 
 
 # 가상화를 구현하기 위한 다양한 방법
@@ -69,7 +69,7 @@ module_init(henry_virt_init);
 module_exit(henry_virt_exit);
 ```
 ## 결과 (예시)
-![kernel_output](../images/Screenshot%20from%202024-09-22%2002-10-54.png)
+![kernel_output](/assets/images/Screenshot%20from%202024-09-22%2002-10-54.png)
 
 # 참조 문서 및 프로젝트
 - [Nakada Tokumei's Simple Ubuntu Builder](https://github.com/NakadaTokumei/simple-ubuntu)
