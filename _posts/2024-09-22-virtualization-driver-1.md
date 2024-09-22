@@ -32,9 +32,11 @@ tags: [Getting Start]
 # 가상화를 구현하기 위한 다양한 방법
 ## System Call
 - 바로 어느정도 딥하게 개발해본 개발자들은 아는 **그 System Call**이다.
+
 ```assembly
     syscall ; <- 얘네들 맞다.
 ```
+
 - 정확히는 PV(Paravirtualization, 반가상화)를 사용할 때 사용한다.
 - System Call을 사용한 반가상화인만큼, 각 운영체제들이 하이퍼바이저에 맞는 System Call 호출에 대한 수정이 무조건 필요하다는 단점이 존재.
 - 현재는 Xen에서 대표적으로 사용.
@@ -47,6 +49,7 @@ tags: [Getting Start]
 # 기본적인 Linux Kernel 드라이버 작성하기
 - 기본적인 드라이버 작성.
 ## 코드
+
 ```c
 #include <linux/kernel.h>
 #include <linux/module.h>
@@ -68,6 +71,7 @@ henry_virt_exit(void)
 module_init(henry_virt_init);
 module_exit(henry_virt_exit);
 ```
+
 ## 결과 (예시)
 ![kernel_output](/assets/images/Screenshot%20from%202024-09-22%2002-10-54.png)
 
