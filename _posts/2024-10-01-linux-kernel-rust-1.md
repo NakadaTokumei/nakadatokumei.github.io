@@ -76,7 +76,7 @@ module_exit(c_module_exit);
 
 ## Rust 스타일
 
-```Rust
+```rust
 //! You must write this Annotation
 //! Becasue this annotation is for generate documentation
 //
